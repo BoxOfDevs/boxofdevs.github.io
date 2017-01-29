@@ -275,25 +275,25 @@ ul,li{
 	transition: opacity .5s;
 }
 #prod_1_over{
-	background-image:url(http://boxx.hk/images/products/prod_1_over.jpg);
+	background-image:url(../images/products/prod_1_over.jpg);
 }
 #prod_2_over{
-	background-image:url(http://boxx.hk/images/products/prod_2_over.jpg);
+	background-image:url(../images/products/prod_2_over.jpg);
 }
 #prod_3_over{
-	background-image:url(http://boxx.hk/images/products/prod_3_over.jpg);
+	background-image:url(../images/products/prod_3_over.jpg);
 }
 #prod_4_over{
-	background-image:url(http://boxx.hk/images/products/prod_4_over.jpg);
+	background-image:url(../images/products/prod_4_over.jpg);
 }
 #prod_5_over{
-	background-image:url(http://boxx.hk/images/products/prod_5_over.jpg);
+	background-image:url(../images/products/prod_5_over.jpg);
 }
 #prod_6_over{
-	background-image:url(http://boxx.hk/images/products/prod_6_over.jpg);
+	background-image:url(../images/products/prod_6_over.jpg);
 }
 #prod_7_over{
-	background-image:url(http://boxx.hk/images/products/prod_7_over.jpg);
+	background-image:url(../images/products/prod_7_over.jpg);
 }
 
 #prodMask{
@@ -333,7 +333,7 @@ ul,li{
 	background-repeat: no-repeat;
 	
 	background-color:#f0f0f0;
-	background-image:url(http://boxx.hk/images/products/D01-D03_R01-R06_M01-M05.jpg);
+	background-image:url(../images/products/D01-D03_R01-R06_M01-M05.jpg);
 }
 #stockListBg .imgPreload{ width:0px; height:0px; overflow: hidden;}
 #stockListBg .blackOut{ width:100%;height:100%; background:#f0f0f0; opacity: 0;}
@@ -504,7 +504,7 @@ ul,li{
 }
 
 #stockPullDown .blackArrow{
-	background:#333 url(http://boxx.hk/images/dropDown.png) top left no-repeat;
+	background:#333 url(../images/dropDown.png) top left no-repeat;
 	position: absolute;
 	top:0px;right:0px;
 	width:50px;
@@ -717,7 +717,7 @@ color:#666;
 	padding-bottom:15px;
 }
 #orderItems .item div.add{
-	background:url(http://boxx.hk/images/icoAdd.png) center center no-repeat;
+	background:url(../images/icoAdd.png) center center no-repeat;
 	width:18px;height:18px;
 	cursor: pointer;
 	padding-right:5px;
@@ -725,8 +725,8 @@ color:#666;
 		opacity: .5;
 }
 #orderItems .item div.min{
-/* 	background:url(http://boxx.hk/images/icoMin.png) center left no-repeat; */
-	background:url(http://boxx.hk/images/icoRemove.png) center left no-repeat;
+/* 	background:url(../images/icoMin.png) center left no-repeat; */
+	background:url(../images/icoRemove.png) center left no-repeat;
 	width:18px;height:18px;
 	padding-left:5px;
 	padding-right:30px;
