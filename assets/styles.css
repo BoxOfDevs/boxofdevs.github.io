@@ -46,6 +46,8 @@ p, a {
   padding: 30px;
   border: 5px inset #cfcfcf;
   background-color: #fcfcfc;
+  max-width: 75%;
+  margin: 0 auto;
 }
 
 /* HEADER */
