@@ -60,16 +60,20 @@ body{
 }
 .logo p{
 	letter-spacing: 0.5px;
+	padding: 15px;
 	margin-top: -10px;
 	font-family: 'Roboto', 'sans-serif';
-	font-size:12px;
+	font-size:20px;
 	font-weight:300;
-	text-transform:lowercase;
+	display: inline-flex;
 }
 .logo a{
 	cursor:pointer;
 	color:#fff;
 	text-decoration:none;
+}
+.logo img {
+	height: 50px;
 }
 #menu a:active {
 color:#1fcdff;
@@ -175,7 +179,7 @@ border: none;
 		opacity:0;
 		//display:none;
 	}
-	
+
 	 .slicknav_menu {
 		display:block;
 	}
@@ -190,7 +194,7 @@ border: none;
 	.pic2Ab{
 		margin-bottom:20px ;
 	}
-	
+
 }
 @media screen and (max-width: 460px) {
 	.pic2Ab{
@@ -224,14 +228,14 @@ border: none;
 	.footer .fEmail{
 		border-radius: 4px !important;
 		margin-bottom:10px ;
-	}	
+	}
 	.footer .subS{
 		border-radius: 4px !important;
 	}
 	.news p{
 		text-align: justify;
 	}
-	
+
 }
 @media screen and (max-width: 1229px) {
 	.cont {
@@ -243,14 +247,14 @@ border: none;
 }
 	.Email {
 	width: 100% !important;
-}	
+}
 	.ftext .cBtn ul{
 		padding-left:40px !important;
 	}
 	.news p{
 		text-align:justify;
 	}
-	
+
 }
 .sl{
 	height: 67px;
@@ -309,7 +313,7 @@ border: none;
 	//margin-left: 24px;
 	margin-top: 57px;
 	text-align: center;
-	
+
 	margin-bottom: -89px;
 	z-index: 10;
 }
@@ -388,7 +392,7 @@ border: none;
 	color: #fff;
 	margin-top: 250px;
 	text-align: center;
-	
+
 }
 .Fresh h4{
 	//margin-left: -15px;
@@ -463,6 +467,7 @@ border: none;
 }
 .team img{
 	margin:0 auto;
+	width: 100%;
 }
 .team h4{
 	margin-top: 24px;
@@ -570,7 +575,7 @@ border: none;
 	color: #2f2f2f;
 	font-family: 'Roboto', 'sans-serif';
 	font-weight: 700;
-	
+
 	top: 0px !important;
 	left: 0px !important;
 	margin-left: 1px;
@@ -728,7 +733,7 @@ border: none;
 	margin-bottom: 94px;*/
 }
 
-@media screen and (min-device-width:1919px) {   
+@media screen and (min-device-width:1919px) {
 	.Ama {
 		margin-top: 246px;
 		margin-bottom: 164px;
@@ -836,11 +841,11 @@ border: none;
 	text-align:center;
 	font-family: 'Roboto', 'sans-serif';
 	font-weight: 700;
-	
+
 	//margin-bottom: 15px;
 	//margin-right: 10px;
 	border-radius:4px;
-	
+
 	padding:10px;
 	background:#2f2f2f;
 	box-shadow: 0px 2px 0px 0px #000;
@@ -873,7 +878,7 @@ border: none;
 }
 
 .picsGall{
-	max-width: 100%; 
+	max-width: 100%;
 	height: auto;
 }
  .pretty .img-responsive{
@@ -976,7 +981,7 @@ border: none;
 	padding: 13px;
 	padding-right: 20px;
 	padding-left: 20px;
-	
+
 }
 .cBtn .dowbload a, .cBtn .buy a{
 	font-size: 14px;
@@ -1063,7 +1068,7 @@ border: none;
 	font-family: 'Roboto', 'sans-serif';
 	font-weight: 300;
 }
-.news p{	
+.news p{
 	line-height: 23px;
 	color:#666666;
 	font-size: 13px;
@@ -1097,7 +1102,7 @@ border: none;
 	margin-top: 14px;
 	padding-left:0;
 	text-align:center;
-	
+
 }
 .news ul li{
 	padding-right: 20px;
@@ -1278,7 +1283,7 @@ textarea {
 	padding: 10px;
 	padding-right: 17px;
 	padding-left: 17px
-	
+
 }
 .forma .cBtn .clear  a, .cBtn .send a{
 	font-family: 'Roboto', 'sans-serif';
@@ -1335,7 +1340,7 @@ textarea {
   filter: grayscale(100%);
 }
  /*
-	filter: url(filters.svg#grayscale); 
+	filter: url(filters.svg#grayscale);
 	-webkit-filter: grayscale(100%);
 	-o-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
@@ -1410,7 +1415,7 @@ textarea {
 	font-size:28px;
 	color: #2f2f2f;
 	font-family: 'Roboto', 'sans-serif';
-	font-weight: 400; 
+	font-weight: 400;
 	margin-top: 37px;
 }
 .ftext p{
@@ -1437,7 +1442,7 @@ textarea {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	
+
 }
 /*.line7:after{
 	content: "";
@@ -1539,7 +1544,7 @@ textarea {
 	text-align: center;
 	text-decoration:none;
 	list-style:none;
-	
+
 }
 .soc {
 	margin-top: 42px;
@@ -1548,7 +1553,7 @@ textarea {
 .soc ul{
 	margin-left: 24px;
 	padding-left: 0;
-	display: inline-block;	
+	display: inline-block;
 }
 .soc1 a{
 	display: inline-block;
@@ -1562,8 +1567,8 @@ textarea {
 	width: 52px;
 	height: 52px;
 
-	
-	
+
+
 	border: 2px solid #fdfdfc;
 	border-radius: 50px;
 }
@@ -1752,7 +1757,7 @@ textarea {
 	width: 100%;
 	overflow: hidden;
 	height: 100%;
-	
+
 	background: url(../images/bgFooter.png)  no-repeat;
 	background:#101010;
 }
@@ -1897,8 +1902,8 @@ margin-bottom: 35px !important;
 
 .isotope,
 .isotope .isotope-item {
-  
-	
+
+
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
     transition-duration: 0.8s;
@@ -2061,12 +2066,10 @@ margin-bottom: 35px !important;
 		/*text-align:center;*/
 		z-index:999;
         position:fixed;
-        top: -65px; 
+        top: -65px;
         padding:20px 0;
         width:100%;
 		background-color: #101010!important;
     }
 
 /**/
-
-
