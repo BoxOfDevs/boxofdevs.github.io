@@ -347,8 +347,7 @@
 					{{% for post in site.post %}}
 					
 					<div class="col-md-6 text-left">
-					<img class="img-responsive picsGall" src="https://thumb-ovp.piksel.com/includes/images/LIVE.png"/>
-					<h3><a href="#" onclick="return false">Our website beta goes live!</a></h3>
+					<h3><a href="#" onclick="return false">{{ post.title }}</a></h3>
 					<ul>	
 						<li><i class="fa fa-user"></i>{{ post.author }}</li>
 						<li><i class="fa fa-calendar"></i>{{ post.date }}</li>
@@ -357,6 +356,8 @@
 					<hr class="hrNews">
 					</div>
 					{{% endfor %}}
+				</div>
+	    </div>
     </div>
 
 
