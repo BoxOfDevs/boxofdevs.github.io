@@ -344,49 +344,19 @@
 		</div>
 		<div class="container">
 				<div class="row news">
+					{{% for post in site.post %}}
+					
 					<div class="col-md-6 text-left">
 					<img class="img-responsive picsGall" src="https://thumb-ovp.piksel.com/includes/images/LIVE.png"/>
 					<h3><a href="#" onclick="return false">Our website beta goes live!</a></h3>
-					<ul>
-						<li><i class="fa fa-calendar"></i>February 27, 2017</li>
+					<ul>	
+						<li><i class="fa fa-user"></i>{{ post.author }}</li>
+						<li><i class="fa fa-calendar"></i>{{ post.date }}</li>
 					</ul>
-					<p>Our new website has just been uploaded to Github! It is not quite finished, but we are working hard to get it up and running 😉!</p>
+					{{ post.expert }}
 					<hr class="hrNews">
 					</div>
-  				<div class="col-md-6 text-right">
-  				<img class="img-responsive picsGall" src="http://www.dynamicchiropractic.com/content/images/good_bad_20432_1_1_8588_20438_1_1_9443.jpg"/>
-  				<h3 ><a href="#" onclick="return false">Good news, and Bad News</a></h3>
-  				<ul>
-  					<li><i class="fa fa-calendar"></i>February 17, 2017</li>
-  				</ul>
-  				<p>Unfortunately, one of our founding members (@remote_vase) has quit development and moved on to teaching other people how to code. One of his students is @TheRoyalBlock, our newest member! On twitter, we posted: "Don't worry, @TheRoyalBlock may seem new and unknown, but he's learning from one of our devs who unfortunately just left -> @remote_vase 😪"</p>
-  				<hr class="hrNews">
-  				</div>
-				</div>
-			</div>
-
-			<div class="container hideObj2" style="display:none;">
-				<div class="row news2 news">
-					<div class="col-md-6 text-left">
-					<img class="img-responsive picsGall" src="http://www.oecd.org/media/oecdorg/topics/development/development%20blog.jpg"/>
-					<h3><a href="#" onclick="return false"> Development of BoxCore starts!</a></h3>
-					<ul>
-						<li><i class="fa fa-calendar"></i>February 6, 2017</li>
-					</ul>
-					<p>One of our original plugins was an all-in-one core plugin, but a while it ago it went quite outdated. Now, we have started work on a new all-in-one core - named BoxCore! It would combine many other plugins (if their licence allows) into one major core plugin, along with a few unique features! This is our newest plugin with lots of potential.</p>
-					<hr class="hrNews">
-					</div>
-				</div>
-			</div>
-			<div class="container">
-			<div class="row cBtn">
-				<div class="col-md-12" style="text-align: center; margin-bottom: -90px; z-index: 10;">
-					<ul class="mNews">
-						<li class="dowbload bhide2"><a href="#"><i class="fa fa-arrow-down"></i>Load More News</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
+					{{% endfor %}}
     </div>
 
 
