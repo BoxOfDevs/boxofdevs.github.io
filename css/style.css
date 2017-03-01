@@ -1220,6 +1220,13 @@ border: none;
 	color:#555555;
 	background:#ededed;
 }
+.forma p {
+	padding-top: 30px;
+	font-family: 'Roboto', 'sans-serif';
+	font-weight: 300;
+	font-size:13px;
+	color:#666666;
+}
 input:focus{
 	//border:0;
 	outline:none;

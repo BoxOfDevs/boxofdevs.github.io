@@ -414,15 +414,39 @@
 							</ul>
 						</div>
 					</form> -->
-					<input type="text" class="col-md-6 col-xs-12 name" name='name' placeholder='Name *'/>
-					<textarea type="text" class="col-md-12 col-xs-12 Message" name='Message' placeholder='Message *'></textarea>
+					<input type="text" class="col-md-6 col-xs-12 name" name='subject' placeholder='Subject *'/>
+					<textarea type="text" class="col-md-12 col-xs-12 Message" name='message' placeholder='Message *'></textarea>
 					<div class="cBtn col-xs-12">
-							<ul>
-								<li class="clear"><a href="#" onclick="return false"><i class="fa fa-times"></i>Clear Form</a></li>
-								<li class="send"><a href="#" onclick="return false"><i class="fa fa-share"></i>Send Message</a></li>
-							</ul>
-						</div>
+						<ul>
+							<li class="send"><a href="#" target="_blank" id="submit"><i class="fa fa-share"></i>Send Message</a></li>
+  						<li class="clear"><a href="#" id="reset"><i class="fa fa-times"></i>Clear Form</a></li>
+						</ul>
+					</div>
+           <p> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> NOTE: This contact form uses the mailto method, so if you are using a device that doesn't have an email client set up properly then just send an email straight to me at <a href="mailto:boxofdevs@gmail.com">boxofdevs@gmail.com</a>.</p>  
 				</div>
+        <script>
+          $('[name=subject]').keypress(function(event){
+            if(event.which === 13){
+              $('[name=message]').focus();
+            }
+          });
+          $('#submit').hover(function(){
+            var $subject = $('[name=subject]').val();
+            var $body = $('[name=message]').val();
+            var $url = 'mailto:boxofdevs@gmail.com?subject=' + $subject + '&body=' + $body;
+            $(this).attr('href', $url);
+          });
+          $('#submit').click(function(){
+            if($(this).attr('href') === '#'){
+              event.preventDefault();
+            }
+          });
+          $('#reset').click(function(){
+            event.preventDefault();
+            $('[name=subject]').val('');
+            $('[name=message]').val('');
+          });
+        </script>
 				<div class="col-md-3 col-xs-12 cont">
 					<ul>
 						<li><a href="#"><i class="fa fa-envelope"></i>Email: BoxOfDevs@gmail.com</li></a>
