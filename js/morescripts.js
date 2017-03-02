@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 
   function getYear(){
@@ -39,6 +38,14 @@ $(document).ready(function(){
     $('html, body').animate({
       scrollTop: 0
     }, 500);
+  });
+
+  $('a').each(function(){
+    if($(this).attr('href') === ''){
+      $(this).click(function(){
+        event.preventDefault();
+      });
+    }
   });
 
   $('#menu').slicknav();
