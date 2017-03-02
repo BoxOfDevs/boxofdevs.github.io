@@ -1,6 +1,6 @@
-# boxofdevs.github.io
-Our website (finally :D)!
+Our Website
+===========
+-----------
+After far too long, our website is almost finished! Visit it at http://boxofdevs.com 😃
 
-## This website is currently in beta. It will be completed in march (hopefully). 
-
-### That is why the contact form does not work, and why the projects page is TOTALLY MESSED UP, and why the latest blog post is from the future.
+**TODO:** Projects, History & SSL.
