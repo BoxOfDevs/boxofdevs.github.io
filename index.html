@@ -1,52 +1,600 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Home | BoxOfDevs Team</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-  <link rel="stylesheet" id="camera-css"  href="css/camera.css" type="text/css" media="all">
-  <link rel="stylesheet" type="text/css" href="css/slicknav.css">
-  <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:700" rel="stylesheet" type="text/css">
-  <script src="js/jquery-1.8.3.min.js"></script>
-  <script src="js/jquery.mobile.customized.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.isotope.js"></script>
-  <script src="js/camera.min.js"></script>
-  <script src="js/myscript.js"></script>
-  <script src="js/sorting.js"></script>
-</head>
-<body>
-  <div id="home">
-    <div class="headerLine">
-      <div id="menuF" class="default">
-        <div class="container">
-          <div class="row">
-            <div class="logo col-md-4">
-              <div>
-                <a href="#">
-                  <img src="images/logo.png"><p>BoxOfDevs Team</p>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-8">
-              <div class="navmenu"style="text-align: center;">
-                <ul id="menu">
-                  <li class="active"><a href="#home">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#news">News</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                  <li><a href="projects.html">Projects</a></li>
-                  <li><a href="apply.html">Join Us</a></li>
-                  <li class="last"><a href="history.html">History</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
+  <head>
+		<title>Home - BoxOfDevs Team</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'>
+		<link rel="stylesheet" type="text/css" href="css/slicknav.css">
+		<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:700' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/camera.min.js"></script>
+		<script type="text/javascript" src="js/myscript.js"></script>
+		<script src="js/sorting.js" type="text/javascript"></script>
+		<script src="js/jquery.isotope.js" type="text/javascript"></script>
+		<!--script type="text/javascript" src="js/jquery.nav.js"></script-->
+
+
+		<script>
+			jQuery(function(){
+					jQuery('#camera_wrap_1').camera({
+					transPeriod: 500,
+					time: 3000,
+					height: '490px',
+					thumbnails: false,
+					pagination: true,
+					playPause: false,
+					loader: false,
+					navigation: false,
+					hover: false
+				});
+			});
+		</script>
+
+	</head>
+	<body>
+
+    <!--home start-->
+
+    <div id="home">
+    	<div class="headerLine">
+	<div id="menuF" class="default">
+		<div class="container">
+			<div class="row">
+				<div class="logo col-md-4">
+					<div>
+						<a href="#">
+							<img src="images/logo.png"><p>BoxOfDevs Team</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="navmenu"style="text-align: center;">
+						<ul id="menu">
+							<li class="active"><a href="#home">Home</a></li>
+							<li><a id="navAbout" href="#about">About</a></li>
+							<li><a href="#news">News</a></li>
+							<li><a href="#contact">Contact</a></li>
+							<li><a href="projects.html">Projects</a></li>
+              <li><a href="apply.html">Join Us</a></li>
+							<li class="last"><a href="history.html">History</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="container">
+			<div class="row wrap">
+				<div class="col-md-12 gallery">
+						<div class="camera_wrap camera_white_skin" id="camera_wrap_1">
+							<div data-thumb="" data-src="images/slides/blank.gif">
+								<div class="img-responsive camera_caption fadeFromBottom">
+									<h2>We develop.</h2>
+								</div>
+							</div>
+							<div data-thumb="" data-src="images/slides/blank.gif">
+								<div class="img-responsive camera_caption fadeFromBottom">
+									<h2>We get stuff done.</h2>
+								</div>
+							</div>
+							<div data-thumb="" data-src="images/slides/blank.gif">
+								<div class="img-responsive camera_caption fadeFromBottom">
+									<h2>We are the BoxOfDevs Team.</h2>
+								</div>
+							</div>
+						</div><!-- #camera_wrap_1 -->
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 project">
+					<h3 id="counter">0</h3>
+					<h4>Awesome Projects</h4>
+					<p>Over the course of time that we have been an organization, we have completed (or almost completed) 35 amazing projects.</p>
+				</div>
+				<div class="col-md-4 project">
+					<h3 id="counter1">0</h3>
+					<h4>Archived Projects</h4>
+					<p>We recently did a cleanup of our projects that are no longer updated, are abandoned, or don't work. We have 22 archived projects.</p>
+				</div>
+				<div class="col-md-4 project">
+					<h3 id="counter2" style="margin-left: 20px;">0</h3>
+					<h4 style="margin-left: 20px;">Staff Members</h4>
+					<p>We have one original founder, along with 6 members who have been with us from the beginning. We have an inherited student who is learning from another former member who was with us from the beginning (he has now left, unfortunately). We also have one new member who recently joined the team. None of our members are payed for what they do.</p>
+				</div>
+			</div>
+		</div>
+    </div>
+
+    <!--about start-->
+
+    <div id="about">
+    	<div class="line2">
+			<div class="container">
+				<div class="row Fresh">
+					<div class="col-md-4 Des">
+						<i class="fa fa-heart"></i>
+						<h4>Made for Everyone</h4>
+						<p>All of our products are made with weeks of effort and every one of our developers loves doing what they do - making something for you to use, for free!</p>
+					</div>
+					<div class="col-md-4 Ver">
+						<i class="fa fa-cog"></i>
+						<h4>Highly Customizeable</h4>
+						<p>All of our products are able to be customized through their various settings files. We try to maximize customizeability (is that a word? 😋).</p>
+					</div>
+					<div class="col-md-4 Fully">
+						<i class="fa fa-refresh"></i>
+						<h4>Constant Bugfixing</h4>
+						<p>Our team is constantly updating each of our products until they have no bugs. We test our products using both online tools and manual improvement so that there are no errors.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 wwa">
+					<span name="about" ></span>
+					<h3>Who are we? Meet our team!</h3>
+					<h4>We develop what you want and what you need! We use the latest methods and always take feedback into consideration! We have our founder, 6 of the original members, one inherited student, and 1 new member. We also have a spot open, just for you! <a href="apply.html"> Apply today!</a></h4>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row team">
+				<div class="col-md-4 b1">
+						<img class="img-responsive" src="https://pbs.twimg.com/profile_images/767635706596294656/_uSx0no__400x400.jpg">
+						<h4>TheDragonRing - Founding Member</h4>
+
+						<p>Some Random Confused Programmer & Bookworm... | Email: hello@thedragonring.me | Founder of the BoxOfDevs Team</p>
+						<ul>
+							<li><a href="http://thedragonring.me"><i class="fa fa-globe"></i></a></li>
+							<li><a href="https://twitter.com/TheDragonRing"><i class="fa fa-twitter" ></i></a></li>
+							<li><a href="https://github.com/TheDragonRing"><i class="fa fa-github"></i></a></li>
+						</ul>
+				</div>
+
+
+				<div class="col-md-4">
+						<img class="img-responsive" src="https://pbs.twimg.com/profile_images/836356783962611712/JMXNtZbk.jpg">
+						<h4>TheRoyalBlock - Admin Member</h4>
+
+						<p>Owner of the Turbine Network, Loves PHP and HTML and CSS. Learning how to code from remote_vase (a past team member). Is a bookworm. Invite to orgs for major contributions. #SCIENCE</p>
+						<ul>
+							<li><a href="https://TheRoyalBlock.github.io"><i class="fa fa-globe"></i></a></li>
+							<li><a href="https://twitter.com/TheRoyalBlock"><i class="fa fa-twitter" ></i></a></li>
+							<li><a href="https://github.com/TheRoyalBlock"><i class="fa fa-github"></i></a></li>
+						</ul>
+				</div>
+
+
+				<div class="col-md-4 b3">
+						<img class="img-responsive" src="https://pbs.twimg.com/profile_images/741157016979279872/OARa0aYk.jpg">
+						<h4>Ad5001 - Admin Member</h4>
+
+						<p>MCPE Youtuber, Map Maker, Engineer redstone (alternative & classical), programmer in PHP, JS, and more. Mail: mail@ad5001.eu</p>
+						<ul>
+							<li><a href="http://ad5001.eu"><i class="fa fa-globe"></i></a></li>
+							<li><a href="https://twitter.com/Ad5001p4f"><i class="fa fa-twitter" ></i></a></li>
+							<li><a href="https://github.com/Ad5001"><i class="fa fa-github"></i></a></li>
+						</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row team">
+				<div class="col-md-4 b1">
+						<img class="img-responsive" src="https://pbs.twimg.com/profile_images/807601217702686721/yMoiX2kb_400x400.jpg">
+						<h4>Professor Taki - Admin Member</h4>
+
+						<p>Amazing plugin developer for PE and PC, teaches people worldwide how to code PocketMine plugins! Semi-retired from coding but actively participates in idea chats. "The PHP Professor Everyone Relys On : )"</p>
+						<ul>
+							<li><a href="https://Taki21.github.io"><i class="fa fa-globe"></i></a></li>
+							<li><a href="https://twitter.com/Professor_Taki"><i class="fa fa-twitter" ></i></a></li>
+							<li><a href="https://github.com/Taki21"><i class="fa fa-github"></i></a></li>
+						</ul>
+				</div>
+
+
+				<div class="col-md-4">
+						<img class="img-responsive" src="https://pbs.twimg.com/profile_images/817120177191993346/oLtGLobl.jpg">
+						<h4>Dog2puppy - Admin Member</h4>
+
+						<p>Dog2puppy loves to code! He has created a lot of small plugins using the PocketMine-MP api, and also loves web development including HTML, CSS, and PHP. </p>
+						<ul>
+							<li><a href="https://dog2puppy-github.tk"><i class="fa fa-globe"></i></a></li>
+							<li><a href="https://twitter.com/Dog2puppy"><i class="fa fa-twitter" ></i></a></li>
+							<li><a href="https://github.com/Dog2puppy"><i class="fa fa-github"></i></a></li>
+						</ul>
+				</div>
+
+
+				<div class="col-md-4 b3">
+						<img class="img-responsive" src="images/picTeam/HimbeersaftLP.jpg">
+						<h4>HimbeersaftLP - Admin Member</h4>
+
+						<p>An amazing and hilarious developer who always contributes!</p>
+						<ul>
+							<li><a href="http://himbeer.me"><i class="fa fa-globe"></i></a></li>
+							<li><a href="https://github.com/HimbeersaftLP"><i class="fa fa-github"></i></a></li>
+						</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row team">
+				<div class="col-md-4 b1">
+					<img class="img-responsive" src="https://pbs.twimg.com/profile_images/680727405577814021/xd5JQYWi_400x400.jpg">
+						<h4>Ulti - Admin Member</h4>
+
+						<p>I'm a cat, meow, check me out. Put your paw on that twitter follow button and remember to lick my website. Bitcoin: 1MSeJzpW7Ew5KfjWLg6D2yv9aehdEkbHNn</p>
+						<ul>
+							<li><a href="http://ulti.gq"><i class="fa fa-globe"></i></a></li>
+							<li><a href="https://twitter.com/Ultie0"><i class="fa fa-twitter" ></i></a></li>
+							<li><a href="https://github.com/Ultie0"><i class="fa fa-github"></i></a></li>
+						</ul>
+				</div>
+
+
+				<div class="col-md-4">
+						<img class="img-responsive" src="https://pbs.twimg.com/profile_images/830737054191468544/KjxeokQv.jpg">
+						<h4>MCPE Expert AKA Erkam2002 - New Member</h4>
+
+						<p>14 | YouTube : MCPE Expert |</p>
+						<ul>
+							<li><a href="https://www.paypal.me/ErkamKahriman"><i class="fa fa-globe"></i></a></li>
+							<li><a href="https://twitter.com/ErkamKahriman"><i class="fa fa-twitter" ></i></a></li>
+							<li><a href="https://github.com/erkam2002"><i class="fa fa-github"></i></a></li>
+						</ul>
+				</div>
+
+
+				<div class="col-md-4 b3">
+						<img class="img-responsive" src="http://www.skyhighindia.com/wp-content/uploads/2016/06/photo.png">
+						<h4>This could be you!</h4>
+
+						<p>We have an empty spot open! Want to apply? <a href="#contact">Apply here!</a></p>
+						<ul>
+						</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 hr1">
+					<hr/>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row aboutUs">
+				<div class="col-md-12 ">
+					<h3>Our reviews</h3>
+				</div>
+			</div>
+		</div>
+
+		<div style="position: relative;">
+
+			<div class="container">
+				<div class="row about">
+					<div class="col-md-6">
+						<div class="about1">
+							<h3>SpeedSurvival - Rating: 5/5</h3>
+							<p>"OMG this plugin is verry good, thanks!" ~RubiksCube - FR</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="about2">
+							<h3>CommandShop - Rating: 5/5</h3>
+							<p>"This plugin is going to change servers. You've made history." ~LordJoshie</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="horL"></div>
+
+			<div class="container">
+				<div class="row about">
+					<div class="col-md-6">
+						<div class="about1">
+							<h3>FairTrades - Rating: 5/5</h3>
+							<p>"This plugin is just what I needed for my server! :D" ~Pogogo007</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="about2">
+							<h3>WinAPI - Rating: 5/5</h3>
+							<p>"Awesome plugin! I was able to make a SCOREBOARD and a LEADERBOARD on my website using this and some PHP!" ~ Dylan C</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+    </div>
+	<!--news start-->
+
+    <div id="news">
+    	<div class="line4">
+			<div class="container">
+				<div class="row Ama">
+					<div class="col-md-12">
+					<h3>What&rsquo;s New?</h3>
+					<p>Get the latest news below!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+				<div class="row news">
+					{{% for post in site.post %}}
+					
+					<div class="col-md-6 text-left">
+					<h3><a href="#" onclick="return false">{{ post.title }}</a></h3>
+					<ul>	
+						<li><i class="fa fa-user"></i>{{ post.author }}</li>
+						<li><i class="fa fa-calendar"></i>{{ post.date }}</li>
+					</ul>
+					{{ post.expert }}
+					<hr class="hrNews">
+					</div>
+					{{% endfor %}}
+				</div>
+	    </div>
+    </div>
+
+
+    <!--contact start-->
+
+    <div id="contact">
+    	<div class="line5">
+			<div class="container">
+				<div class="row Ama">
+					<div class="col-md-12">
+					<h3>Questions? Plugin Requests? Staff Application? We&rsquo;re Here to Help!</h3>
+					<p>Get in touch with us!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 col-xs-12 forma">
+					<!-- <form action="mail_handler.php" method="post">
+						<input type="text" class="col-md-6 col-xs-12 name" name='name' placeholder='Name *'/>
+						<input type="text" class="col-md-6 col-xs-12 Email" name='Email' placeholder='Email *'/>
+						<textarea type="text" class="col-md-12 col-xs-12 Message" name='Message' placeholder='Message *'></textarea>
+						<div class="cBtn col-xs-12">
+							<ul>
+								<li class="send"><i class="fa fa-share"></i><input type="submit" name="submit" value="Send Message"></li>
+							</ul>
+						</div>
+					</form> -->
+					<input type="text" class="col-md-6 col-xs-12 name" name='subject' placeholder='Subject *'/>
+					<textarea type="text" class="col-md-12 col-xs-12 Message" name='message' placeholder='Message *'></textarea>
+					<div class="cBtn col-xs-12">
+						<ul>
+							<li class="send"><a href="#" id="submit"><i class="fa fa-share"></i>Send Message</a></li>
+  						<li class="clear"><a href="#" id="reset"><i class="fa fa-times"></i>Clear Form</a></li>
+						</ul>
+					</div>
+           <p> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> NOTE: This contact form uses the mailto method, so if you are using a device that doesn't have an email client set up properly then just send an email straight to us at <a href="mailto:boxofdevs@gmail.com">boxofdevs@gmail.com</a>.</p>
+				</div>
+        <script>
+          $('[name=subject]').keypress(function(event){
+            if(event.which === 13){
+              $('[name=message]').focus();
+            }
+          });
+          $('#submit').hover(function(){
+            var $subject = $('[name=subject]').val();
+            var $body = $('[name=message]').val();
+            var $url = 'mailto:boxofdevs@gmail.com?subject=' + $subject + '&body=' + $body;
+            $(this).attr('href', $url);
+          });
+          $('#submit').click(function(){
+            if($(this).attr('href') === '#'){
+              event.preventDefault();
+            }
+          });
+          $('#reset').click(function(){
+            event.preventDefault();
+            $('[name=subject]').val('');
+            $('[name=message]').val('');
+          });
+        </script>
+				<div class="col-md-3 col-xs-12 cont">
+					<ul>
+						<li><a href="#"><i class="fa fa-envelope"></i>Email: BoxOfDevs@gmail.com</li></a>
+						<li><a href="https://twitter.com/BoxOfDevsTeam"><i class="fa fa-twitter"></i>Twitter: BoxOfDevsTeam</li></a>
+						<li><a href="https://discord.gg/tx7Ntj2"><i class="fa fa-comments"></i>Discord: Click Me to join</li></a>
+						<li><a href="https://github.com/BoxOfDevs"><i class="fa fa-github"></i>Github: BoxOfDevs</li></a> <p>To contact us, there are many ways that you can do it. One way is to fill out this email form. Another way is to chat with us on Twitter or Discord. Or just create an issue in the "Archived" repository on Github. We will try our best to have one of our team members reply in 24 hours. <br><br> Would you like to apply to be a member of our team? Go to <a href="apply.html">this page</a> and fill out the form (just things like a portfolio of your past works, proof that you are who you say you are, your name (online name, not real name) and email.) to request to join! Just be warned, sometimes we are very tough on our members as we have a bad history of inactive members.</p> <br><br><br><br><br>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="lineBlack">
+			<div class="container">
+				<div class="row downLine">
+					<div class="col-md-12 text-right">
+						<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</div>
+					<div class="col-md-6 text-left copy">
+						<p>This webpage is licenced under the Creative Commons Attribution 4.0 International License. Copyright &copy; 2017 BoxOfDevs. All Rights Reserved.</p>
+					</div>
+					<div class="col-md-6 text-right dm">
+						<ul id="downMenu">
+							<audio controls>
+								<source src="developers.mp3" type="audio/mpeg">
+							</audio>
+							<li class="active"><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#contact">Contact</a></li>
+							<li><a href="#news">News</a></li>
+							<li><a href="projects.html">Projects</a></li>
+              <li><a href="apply.html">Join Us</a></li>
+							<li class="last"><a href="history.html">History</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+
+
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.js"></script>
+	<script>
+			$(document).ready(function(){
+			$(".bhide").click(function(){
+				$(".hideObj").slideDown();
+				$(this).hide(); //.attr()
+				return false;
+			});
+			$(".bhide2").click(function(){
+				$(".container.hideObj2").slideDown();
+				$(this).hide(); // .attr()
+				return false;
+			});
+
+			$('.heart').mouseover(function(){
+					$(this).find('i').removeClass('fa-heart-o').addClass('fa-heart');
+				}).mouseout(function(){
+					$(this).find('i').removeClass('fa-heart').addClass('fa-heart-o');
+				});
+
+				function sdf_FTS(_number,_decimal,_separator)
+				{
+				var decimal=(typeof(_decimal)!='undefined')?_decimal:2;
+				var separator=(typeof(_separator)!='undefined')?_separator:'';
+				var r=parseFloat(_number)
+				var exp10=Math.pow(10,decimal);
+				r=Math.round(r*exp10)/exp10;
+				rr=Number(r).toFixed(decimal).toString().split('.');
+				b=rr[0].replace(/(\d{1,3}(?=(\d{3})+(?:\.\d|\b)))/g,"\$1"+separator);
+				r=(rr[1]?b+'.'+rr[1]:b);
+
+				return r;
+}
+
+			setTimeout(function(){
+					$('#counter').text('0');
+					$('#counter1').text('0');
+					$('#counter2').text('0');
+					setInterval(function(){
+
+						var curval=parseInt($('#counter').text());
+						var curval1=parseInt($('#counter1').text().replace(' ',''));
+						var curval2=parseInt($('#counter2').text());
+						if(curval<=34){
+							$('#counter').text(curval+1);
+						}
+						if(curval1<=21){
+							$('#counter1').text(curval1+1);
+						}
+						if(curval2<=7){
+							$('#counter2').text(curval2+1);
+						}
+					}, 2);
+
+				}, 500);
+			});
+	</script>
+	<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery('#menu').slicknav();
+
+	});
+	</script>
+
+	<script type="text/javascript">
+    $(document).ready(function(){
+
+        var $menu = $("#menuF");
+
+        $(window).scroll(function(){
+            if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
+                $menu.fadeOut('fast',function(){
+                    $(this).removeClass("default")
+                           .addClass("fixed transbg")
+                           .fadeIn('fast');
+                });
+            } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
+                $menu.fadeOut('fast',function(){
+                    $(this).removeClass("fixed transbg")
+                           .addClass("default")
+                           .fadeIn('fast');
+                });
+            }
+        });
+	});
+    //jQuery
+	</script>
+	<script>
+		/*menu*/
+		function calculateScroll() {
+			var contentTop      =   [];
+			var contentBottom   =   [];
+			var winTop      =   $(window).scrollTop();
+			var rangeTop    =   200;
+			var rangeBottom =   500;
+			$('.navmenu').find('a').each(function(){
+				contentTop.push( $( $(this).attr('href') ).offset().top );
+				contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
+			})
+			$.each( contentTop, function(i){
+				if ( winTop > contentTop[i] - rangeTop && winTop < contentBottom[i] - rangeBottom ){
+					$('.navmenu li')
+					.removeClass('active')
+					.eq(i).addClass('active');
+				}
+			})
+		};
+
+		$(document).ready(function(){
+			calculateScroll();
+			$(window).scroll(function(event) {
+				calculateScroll();
+			});
+			$('.navmenu ul li a').click(function() {
+				$('html, body').animate({scrollTop: $(this.hash).offset().top - 80}, 800);
+				return false;
+			});
+		});
+	</script>
+	<script type="text/javascript" charset="utf-8">
+
+		jQuery(document).ready(function(){
+			jQuery(".pretty a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: true, social_tools: ''});
+
+		});
+	</script>
+	</body>
+
+</html>
         </div>
       </div>
       <div class="container">
