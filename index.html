@@ -276,7 +276,6 @@
           </div>
           <div>
             <center>
-            <h4>Ads help support us; please turn off your ad blocker if you have it.</h4>
             <iframe data-aa='563915' src='//ad.a-ads.com/563915?size=728x90' scrolling='no' style='width:728px; height:90px; border:0px; padding:0;overflow:hidden' allowtransparency='true'></iframe>
             </center>
           </div>
@@ -412,5 +411,43 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/morescripts.js"></script>
 	<script src="https://ultiapi.ml/boddesc.js"></script>
+    <script src="js/adsgone.js"></script>
+<script>
+		function adBlockDetected() {
+			$('#block-adb-enabled').show();
+			$('#block-adb-not-enabled').hide();
+		}
+		function adBlockNotDetected() {
+			$('#block-adb-enabled').hide();
+			$('#block-adb-not-enabled').show();
+		}
+		
+		if(typeof blockAdBlock === 'undefined') {
+			adBlockDetected();
+		} else {
+			blockAdBlock.setOption({ debug: true });
+			blockAdBlock.onDetected(adBlockDetected).onNotDetected(adBlockNotDetected);
+		}
+		
+		function checkAgain() {
+			$('#block-adb-enabled').hide();
+			$('#block-adb-not-enabled').hide();
+			// setTimeout 300ms for the recheck is visible when you click on the button
+			setTimeout(function() {
+				if(typeof blockAdBlock === 'undefined') {
+					adBlockDetected();
+				} else {
+					blockAdBlock.onDetected(adBlockDetected).onNotDetected(adBlockNotDetected);
+					blockAdBlock.check();
+				}
+			}, 300);
+		}
+	</script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+	<script>
+		$('pre code').each(function(i, block) {
+			hljs.highlightBlock(block);
+		});
+	</script>
   </body>
   </html>
