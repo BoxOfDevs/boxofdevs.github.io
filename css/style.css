@@ -2080,3 +2080,17 @@ margin-bottom: 35px !important;
     }
 
 /**/
+
+/** A little life for Audio **/
+
+audio::-internal-media-controls-download-button { 
+	display:none !important; 
+} 
+
+audio::-webkit-media-controls-enclosure { 
+	overflow:hidden !important; 
+} 
+
+audio::-webkit-media-controls-panel { 
+	width: calc(100% + 30px) !important; 
+}
