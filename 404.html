@@ -1,12 +1,24 @@
----
-permalink: /404.html
----
+ --- permalink: /404.html ---
 
 <!DOCTYPE html>
+
+<!--
+  Copyright (c) 2018 the BoxOfDevs Team <boxofdevs.com>, under the MIT License.
+-->
+
 <html>
-  <head>
-    <title>Redirect | BoxOfDevs Team</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; ../">
-  </head>
+
+<head>
+  <title>404 Not Found - Redirecting...</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="BoxOfDevs Team">
+  <script>
+    if (window.location.href.slice(-1) === '/') {
+      window.location.assign('../');
+    } else {
+      window.location.assign('./');
+    }
+  </script>
+</head>
+
 </html>
