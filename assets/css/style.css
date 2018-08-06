@@ -1,0 +1,112 @@
+.navbar-brand, .nav-link, .head, .card-number .card-body p.card-text {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.navbar-brand img {
+	width: 45px;
+	margin-right: 15px;
+}
+
+nav {
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.head {
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+body {
+	background: url("../img/background.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: "Roboto", sans-serif;
+}
+
+.explanation i {
+	font-size: 2rem;
+	margin-bottom: 15px;
+}
+
+.card-img-top {
+	margin: -1.25rem -1.25rem 1.25rem -1.25rem;
+	width: calc(100% + 2.5rem);
+}
+
+.members .row:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+@media (max-width: 767.98px) {
+	.explanation .col-md-4:not(:last-child), .members .col-md-4:not(:last-child) {
+		margin-bottom: 30px;
+	}
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+h5 a {
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.content {
+	background: #fff;
+	padding: 5rem 0;
+}
+
+.content-inverse {
+	background: #fc4a1a;
+	color: #fff;
+}
+
+.head h1 {
+	padding-top: 40vh;
+	color: #fc4a1a;
+	font-size: 4rem;
+	text-shadow: 0 0 50px rgba(252, 74, 26, 0.5)
+}
+
+.head h3 {
+ color: rgba(255, 255, 255, 0.85);
+}
+
+.head {
+	color: #fff;
+}
+
+.card-number {
+	border: none;
+	border-radius: 0;
+}
+
+.card {
+	background-color: transparent;
+}
+
+.content p:last-child a:hover {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.card-number .card-body p.card-text {
+	border-right: 1px solid rgba(0, 0, 0, 0.125);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+	border-left: 1px solid rgba(0, 0, 0, 0.125);
+	padding: 1rem;
+	border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.card-number .card-body h5.card-title {
+	border-radius: 0.25rem 0.25rem 0 0;
+	background: #fc4a1a;
+	color: #fff;
+	margin-bottom: 0;
+	padding: 2rem 0;
+	font-size: 6rem;
+	font-weight: bold;
+}
