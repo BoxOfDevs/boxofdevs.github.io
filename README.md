@@ -1,6 +1,6 @@
 Our Website
 ===========
 -----------
-After far too long, our website is almost finished! Visit it at http://boxofdevs.com 😃
+Due to be torn down and rebuilt.
 
-**TODO:** History & SSL.
+Visit our discord at https://discordapp.com/invite/adFhNCQ for more information
