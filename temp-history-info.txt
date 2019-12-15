@@ -4,3 +4,4 @@ February 25, 2017: Ad5001 proposes a projects page on our website with wikis and
 February 26, 2017: TheRoyalBlock takes on the task of creating the new BoxOfDevs website, while leaving a blank page for Ad5001 to create his projects stuff!
 February 27, 2017: The BoxOfDevs website beta is published to our github!
 February 29, 2016: The BoxOfDevs team patiently waits for Ad5001 to complete his exams and publish the site to his VPS.
+September 25, 2018: nathfreder joins BoxOfDevs
