@@ -91,7 +91,7 @@ $(document).ready(function(){
       if(curval <= 1){
         $('#counter').text(curval+1);
       }
-      if(curval1 <= 27){
+      if(curval1 <= 49){
         $('#counter1').text(curval1+1);
       }
       if(curval2 <= 7){
