@@ -88,7 +88,7 @@ $(document).ready(function(){
       var curval = parseInt($('#counter').text());
       var curval1 = parseInt($('#counter1').text().replace(' ',''));
       var curval2 = parseInt($('#counter2').text());
-      if(curval <= 1){
+      if(curval <= 2){
         $('#counter').text(curval+1);
       }
       if(curval1 <= 49){
