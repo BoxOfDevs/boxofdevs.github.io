@@ -88,13 +88,13 @@ $(document).ready(function(){
       var curval = parseInt($('#counter').text());
       var curval1 = parseInt($('#counter1').text().replace(' ',''));
       var curval2 = parseInt($('#counter2').text());
-      if(curval <= 16){
+      if(curval <= 1){
         $('#counter').text(curval+1);
       }
-      if(curval1 <= 21){
+      if(curval1 <= 27){
         $('#counter1').text(curval1+1);
       }
-      if(curval2 <= 8){
+      if(curval2 <= 7){
         $('#counter2').text(curval2+1);
       }
     }, 2);
