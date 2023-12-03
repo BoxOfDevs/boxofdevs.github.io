@@ -78,8 +78,19 @@ $(document).ready(function(){
     b =rr[0].replace(/(\d{1,3}(?=(\d{3})+(?:\.\d|\b)))/g, "\$1" + separator);
     r = (rr[1] ? b + '.' + rr[1] : b);
     return r;
-  }
+   }
 
+const ghusername = "BoxOfDevs";
+fetch(`https://api.github.com/users/${ghusername}`, {})
+   .then(response => response.json())
+   .then(data => {
+       let numRepos = data.public_repos;
+       var numArchived = 28; // Update Me as Necessary, No API available for counting archived repos
+       var adjustednumRepos = numRepos - numArchived;
+       var adjustednumArchived = numArchived + 23 - 1;
+       var curvalRepos = adjustednumRepos-1;
+       var curvalArchived = adjustednumArchived-1;
+	   
   setTimeout(function(){
     $('#counter').text('0');
     $('#counter1').text('0');
@@ -88,10 +99,10 @@ $(document).ready(function(){
       var curval = parseInt($('#counter').text());
       var curval1 = parseInt($('#counter1').text().replace(' ',''));
       var curval2 = parseInt($('#counter2').text());
-      if(curval <= 2){
+      if(curval <= curvalRepos){
         $('#counter').text(curval+1);
       }
-      if(curval1 <= 49){
+      if(curval1 <= curvalArchived){
         $('#counter1').text(curval1+1);
       }
       if(curval2 <= 7){
@@ -99,6 +110,7 @@ $(document).ready(function(){
       }
     }, 2);
   }, 500);
+      })
 
   var $menu = $("#menuF");
   $(window).scroll(function(){
